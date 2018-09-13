@@ -51,5 +51,6 @@ def testing():
 		260,270,299,300,306,333,350,375,443,475,525,583,780,1000]
 	n = num(len(num_list), num_list)
 	assert n.mu == 270.3 and round(n.sd, 3) == 231.946 
+	
 if __name__== "__main__":
   O.report()
