@@ -34,7 +34,7 @@ class sample:
 #testing
 @O.k
 def testing():
-    random.seed(2)
+    random.seed(1)
     s = []
     for i in range(5, 11):
         s.append(sample(2 ** i))
@@ -47,7 +47,7 @@ def testing():
             obj.sampleInc(random_number)
 
     for obj in s:
-        print(obj.max, obj.nth(0.5))
+        assert abs(obj.nth(0.5) - 0.5) < 0.2
 
 if __name__== "__main__":
   O.report()
