@@ -1,0 +1,30 @@
+#for num.py
+
+-----| testing |-----------------------
+# pass
+
+-----| testing |-----------------------
+# pass
+
+# pass= 2 fail= 0 %pass = 100%
+[Finished in 0.2s]
+
+
+=======================================
+#for sample.py
+
+-----| testing |-----------------------
+# pass
+
+# pass= 1 fail= 0 %pass = 100%
+[Finished in 0.1s]
+
+
+=======================================
+#for sym.py
+
+-----| testing |-----------------------
+# pass
+
+# pass= 1 fail= 0 %pass = 100%
+[Finished in 0.1s]
